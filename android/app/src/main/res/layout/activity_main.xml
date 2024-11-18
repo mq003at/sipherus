@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Button to trigger QR Code Scanner -->
+
+    <!-- TextView to display the QR code data -->
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Click here to scan QR Code" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="411dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Scanned data will appear here"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+</LinearLayout>
