@@ -59,7 +59,6 @@ Thumbs.db
 .metadata/
 
 # Specific to Android/IntelliJ IDEA
-*.apk
 *.ap_
 *.dex
 *.class
