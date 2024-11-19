@@ -178,7 +178,7 @@ For example,
 }
 ```
 
-Using [QRCode Generator](https://www.qr-code-generator.com/), you can easily create QR Codes like this. You can also send a POST or DELETE request to the backend to create your desired employee.
+Using [QRCode Generator](https://www.qr-code-generator.com/), you can easily create QR Codes like this. You can also send a POST or DELETE request to the backend to create your desired employee and use QRCode Generator to get the QRCode to toggle their status.
 
 After that, click on the Scan button on the apk and scan this QR Code. The APK will return text to show the updated status of employees.
 
