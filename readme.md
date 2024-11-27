@@ -5,7 +5,7 @@ A mock Attendance Manangement App. The Backend will handle REST API Request to M
 Including an ExpressJS backend and a Kotlin Android application.
 
 <p align="center">
-     <img src="https://github.com/user-attachments/assets/3c72ae71-8a6a-42f2-a08f-9de90a9fbe75" alt="Sipherus Logo" width="200"/>
+     <img src="(https://github.com/user-attachments/assets/175cc864-bcaf-4bf0-84d4-865ba11b59b9" alt="Sipherus Logo" width="200"/>
 </p>
 
 # Table of Content
