@@ -7,16 +7,21 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <!-- Button to trigger QR Code Scanner -->
 
-    <!-- TextView to display the QR code data -->
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/sipherus_logo"
+        android:contentDescription="@string/sipherus_logo_description"
+        android:layout_marginBottom="16dp" />
 
     <Button
         android:id="@+id/btn_scan"
         android:layout_width="246dp"
         android:layout_height="wrap_content"
         android:padding="20dp"
-        android:text="Click here to scan QR Code" />
+        android:text="@string/click_here_to_scan_qr_code" />
 
     <TextView
         android:id="@+id/tv_result"
@@ -24,7 +29,7 @@
         android:layout_height="411dp"
         android:layout_marginTop="20dp"
         android:gravity="center"
-        android:text="Scanned data will appear here"
+        android:text="@string/scanned_data_will_appear_here"
         android:textColor="@android:color/black"
         android:textSize="16sp" />
 </LinearLayout>
